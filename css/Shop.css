@@ -7,163 +7,18 @@ body {
     font-family: "Lato", sans-serif;
 }
 
-.sidenav {
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: lightskyblue;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-}
-
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-}
-
-.sidenav a:hover {
-    color: cornflowerblue;
-}
-
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-
-.dashboard {
-    float: right;
-    position: absolute;
-    /*//transition: margin-left .5s;*/
-    right: 10px;
-    padding: 10px;
-    font-size: 40px;
-}
-
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-}
-
-.header{
-    background-color: cornflowerblue;
-    height: 80px;
-    font-size: 50px;
-    text-align: center;
-    color:lightcyan;
-    position: relative;
-    padding: 10px;
-    width: 100%;
-    /*left: 10px;*/
-}
-@media (min-width:575px){
-    .header{
-        background: lightskyblue;
-    }
-}
-@media (min-width:768px){
-    .header{
-        background: lightblue;
-    }
-}
-@media (min-width:992px){
-    .header{
-        background: cornflowerblue;
-    }
-}
-@media (min-width:1200px){
-    .header{
-        background: dodgerblue;
-    }
-}
-
-.dashboard{
-    position: absolute;
-    right: 10px;
-    font-size: 40px;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: "Lato", sans-serif;
-}
-
-@media (min-width:575px){
-    .header{
-        background: lightskyblue;
-    }
-}
-@media (min-width:768px){
-    .header{
-        background: lightblue;
-    }
-}
-@media (min-width:992px){
-    .header{
-        background: cornflowerblue;
-    }
-}
-@media (min-width:1200px){
-    .header{
-        background: dodgerblue;
-    }
-}
-
-#shopTitle{
-    font-family: "Al Nile";
-    font-size: 40px;
-    color: aqua;
+img{
+    width: 200px;
+    height: 200px;
 }
 
 .shopImage{
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     margin-left: 20px;
     border-radius: 5px;
     box-shadow: 0px 0px 30px 0px gray ;
 
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-    border: #111111 1px solid;
-    border-radius: 10px;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 180px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    font-size: 10px;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.shopTable{
-    padding-top: 80px;
-    left: 10%;
-    width: 90%;
-    font-size: 35px;
-    padding-bottom: 40px;
 }
 
 .shopName{
@@ -175,10 +30,52 @@ body {
     margin-left: 30px;
 }
 
-#subtitle{
-    position: absolute;
-    font-size: 100px;
-    /*top: 10%;*/
+.btn{
+    border-radius: 5px;
+    color: #b3d7ff;
+    width: 150px;
+    height: 40px;
 }
 
+.shop{
+    background-color: #ffffff;
+    min-height: 400px;
+    min-width: 250px;
+    border: solid 1px rgb(230,230,230);
+    border-radius: 5px 5px 5px 5px ;
+    padding-left: 10px;
+    padding-top: 10px;
+}
 
+.shop p{
+    text-align: center;
+    font-size: 0.9em;
+    background-color: #ffdf7e;
+    color: #FFFFFF;
+    padding: 2px 0 2px 0;
+    margin-right: 10px;
+}
+
+.shop ul{
+    padding-left: 10px;
+}
+
+.panel .shop:hover{
+    box-shadow: 2px 2px 5px rgba(50, 50, 50, 0.75)
+}
+
+#shopTitle{
+    font-family: "Al Nile";
+    font-size: 30px;
+    color: aqua;
+}
+
+#RyeTittle{
+    margin-top: 0;
+    height: 60px;
+    font-size: 30px;
+    text-align: left;
+    color: #111111;
+    position: relative;
+    background-color: #00bcd4;
+}
