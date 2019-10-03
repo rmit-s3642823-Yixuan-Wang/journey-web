@@ -33,13 +33,13 @@ img{
 .btn{
     border-radius: 5px;
     color: #b3d7ff;
-    width: 150px;
-    height: 40px;
+    width: 75px;
+    height: 30px;
 }
 
 .shop{
     background-color: #ffffff;
-    min-height: 400px;
+    min-height: 380px;
     min-width: 250px;
     border: solid 1px rgb(230,230,230);
     border-radius: 5px 5px 5px 5px ;
@@ -49,9 +49,9 @@ img{
 
 .shop p{
     text-align: center;
-    font-size: 0.9em;
-    background-color: #ffdf7e;
-    color: #FFFFFF;
+    font-size: 20px;
+
+    color: black;
     padding: 2px 0 2px 0;
     margin-right: 10px;
 }
